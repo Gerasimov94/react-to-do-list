@@ -1,0 +1,13 @@
+export const ADD_TODO = 'ADD_TODO';
+export const SET_VISIBILITY_FILTER = 'SET_VISIBILITY_FILTER';
+export const SET_FILTER = 'SET_FILTER';
+export const TOGGLE_TODO = 'TOGGLE_TODO';
+export const CANCEL_TODO = 'CANCEL_TODO';
+export const DELETE_TODO = 'DELETE_TODO';
+export const UPDATE_TODO = 'UPDATE_TODO';
+export const UPDATE_PRIORITY = 'UPDATE_PRIORITY';
+export const SHOW_ALL = 'SHOW_ALL';
+export const SET_PRIORITY_FILTER = 'SET_PRIORITY_FILTER';
+export const SET_TEXT_FILTER = 'SET_TEXT_FILTER';
+export const DELETE_COMPLITED = 'DELETE_COMPLITED';
+
