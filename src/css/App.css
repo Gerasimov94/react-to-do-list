@@ -34,7 +34,10 @@ select{
 
 button{
   margin-left: 5px 
- 
+}
+
+.select--priority{
+  margin-right: 0px;
 }
 
 #header{

@@ -40,17 +40,17 @@ static propTypes = {
         <input defaultValue ={ this.props.text} ref={node => {
           this.input = node
         }} />
-        <button onClick={this.onUpdateBtnClick}>
-          Обновить
-        </button>
-        <select ref={node => {this.sel = node}} >
+        <select className='select--priority' ref={node => {this.sel = node}} >
           <optgroup label='Приоритет'>
             <option value="1"  >Высокий</option>
             <option value="2"  >Средний</option>
             <option value="3"  >Низкий</option> 
           </optgroup>
         </select>
-        <button onClick={ this.props.setCancel}>
+        <button onClick={this.onUpdateBtnClick}>
+          Обновить
+        </button>
+        <button onClick={this.props.setCancel}>
           Отменить 
         </button>
       </form>

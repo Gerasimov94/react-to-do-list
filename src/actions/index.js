@@ -10,7 +10,6 @@ export const toggleTodo = createAction(
 let initialTodoId = 0;
 export const addTodo = createAction(
   ADD_TODO,
-
   (text, id) => ({ text, id: initialTodoId++ }),
 );
 
